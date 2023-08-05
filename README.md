@@ -3,7 +3,7 @@
 The purpose of this code is to calculate the CO2 flux between ocean and air globally using the CO2-Residual Method (Bennington et al. 2022, JAMES, doi:10.1029/2021MS002960). Data is downloaded from online sources and processed in these scripts.
 
 ## Installation and Setup
-This code was developed in Python 2.7.5 on a Linux system. The requirements yaml file details the packages and environment needed to execute this code. The initial scripts download data from online sources and require 25 GB of space. 
+This code was developed in Python 3.8.5 on a Linux system. The requirements yaml file details the packages and environment needed to execute this code. The initial scripts download data from online sources and require 25 GB of space. 
 
 After cloning this repository, please rename the config.yml.example to "config.yml" and edit the contents. This file requires you to specify account details required for some online data sources needing an API key. Specifically, the following are needed:
   
