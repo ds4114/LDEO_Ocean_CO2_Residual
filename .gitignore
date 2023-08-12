@@ -2,5 +2,7 @@ config.yml
 code/06_compare_results.ipynb
 .ipynb_checkpoints/
 data/
+tmp/
+*.zarr
 *.nc
 *.csv
