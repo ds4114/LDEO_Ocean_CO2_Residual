@@ -1,0 +1,23 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - cmocean
+  - dask
+  - gcsfs
+  - ipykernel
+  - matplotlib
+  - netcdf4
+  - nbformat
+  - pip
+  - pyyaml
+  - scikit-learn
+  - xarray
+  - xesmf
+  - xgboost
+  - zarr
+  - pip:
+    - cdsapi
+    - google-auth-oauthlib==0.5.3
+
