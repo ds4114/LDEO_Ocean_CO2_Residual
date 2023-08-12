@@ -1,10 +1,8 @@
 #Change the following keys by editing the text inside the quotes. Rename the file to config.yml to use.
 
-download_folder_local: 'C:/INSERT/PATH/HERE/'             #Folder where to save downloaded files locally
-download_folder_cloud: '/INSERT/PATH/HERE/'               #Folder where to save downloaded files on the cloud
-reconstruction_folder_local: 'C:/INSERT/PATH/HERE/'       #Folder where to save output from machine learning locally
-reconstruction_folder_cloud: '/INSERT/PATH/HERE/'         #Folder where to save output from machine learning on cloud
+download_folder: '/INSERT/PATH/HERE/'                     #Folder where to save downloaded files on the cloud, ending with "/"
+reconstruction_folder: '/INSERT/PATH/HERE/'               #Folder where to save output from machine learning on cloud, ending with "/"
 cds_api_key: '00000:00000000-0000-0000-0000-000000000000' #This is used for SLP data
 chl_user: 'USERNAME'                                      #This is used for CHL data
 chl_psw: 'PASSWORD'                                       #This is used for CHL data
-ESMFMKFILE: 'C:/Path_To_Python_Env/esmf.mk'               #This is used for regridding with the xESFM package
+ESMFMKFILE: '/Path_To_Python_Env/esmf.mk'                 #This is used for regridding with the xESFM package
